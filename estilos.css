@@ -5,6 +5,34 @@
     box-sizing: border-box;
 }
 
+@media  (max-with: 767px){
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    
+}
+@media  (max-with: 768px) and (max-width: 990){
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+    
+}
+@media  (max-with: 991px){
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+    
+}
+
 /* Tipografía y fondo */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

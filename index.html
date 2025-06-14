@@ -58,6 +58,7 @@
         <p>¡Aquí te la hacemos de jamon!. ¡Visítanos y prueba nuestras especialidades!</p>
     </section>
 
+    <!-- Aquí podremos agregar más platillos -->
     <section id="menu">
         <h2>Menú</h2>
         <div class="container">
@@ -132,6 +133,7 @@
         </div>
     </section>
 
+<!-- Aquí podremos agregar más bebidas-->
 <section id="bebidas">
     <h2>Bebidas</h2>
     <div class="container">
@@ -271,7 +273,6 @@
                 <option value="Jarrito de Tamarindo" data-price="25">Refresco sabor tamarindo 325ml - $25</option>
                 <option value="Jarrito de Tuttifrutti" data-price="25">Refresco sabor frutas 325ml - $25</option>
                 <option value="Jarrito de Mandarina" data-price="25">Refresco sabor mandarina 325ml - $25</option>
-                <option value="" data-price="25">Refresco 325ml - $25</option>
                 <option value="Manzanita-sol" data-price="25">Refresco sabor manzana 325ml - $25</option>
             </select><br><br>
     
@@ -314,6 +315,7 @@
         </div>
     </section>
 
+    <!-- JS para punto de venta -->
     <script>
         let pedidos = [];
         let totalPagar = 0;
@@ -386,5 +388,16 @@
     
             recibo.style.display = "block";
         }
+
+
+
     </script>
+
+    <script>
+  function reiniciar() {
+    window.location.href = "index.html"; // o tu ruta inicial exacta
+  }
+</script>
+<button onclick="reiniciar()">Volver al Inicio</button>
+
 </body> 
